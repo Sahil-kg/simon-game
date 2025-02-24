@@ -33,7 +33,7 @@ $(".btn").click(function() {  // Ensure click events aren't duplicated
   } else {
       let username = localStorage.getItem("username") || "Player"; // Get username or default to "Player"
 
-      $("#level-title").text(`❌ Sorry! my love ${username}, yaha aapne galti kar di`);
+      $("#level-title").text(`❌ Sorry! my love akshita , yaha aapne galti kar di`);
       level=1;
       seqarr.length = 0; 
       userClickedPattern = [];
